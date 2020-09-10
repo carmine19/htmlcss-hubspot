@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+
+/***** header *******/
+
+header .header-top {
+    background: #F5F8FA;
+    border-bottom: 2px solid #cbd6e2;
+    line-height: 80px;
+    height: 80px;
+}
+
+header .header-top .container .col-lg-6:first-child div {
+    display: inline-block;
+}
+
+header .container .col-lg-6:last-child .box-right {
+    float: right;
+}
+
+header .container .col-lg-6:last-child .box-left {
+    float: left;
+}
+
+header .container .col-lg-6:first-child .box-left ul li a {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+header .container .col-lg-6:first-child .box-left p {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #33475B;
+    font-weight: bold;
+}
+
+header .container .col-lg-6:first-child .box-left p:first-child span {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+header .container .col-lg-6:first-child .box-left p:first-child span {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+header .container .col-lg-6:first-child .box-left .box-text-1 {
+    border-right: 1px solid #CBD6E2;
+    height: 30px;
+    line-height: 30px;
+}
+
+header .container .col-lg-6:first-child .box-left ul li:first-child {
+    border-right: 2px solid #cbd6e2;
+}
+
+header .container .col-lg-6:last-child .box-right .fa-search {
+    color: #5CBFD2;
+}
+
+header .container .col-lg-6:last-child .box-right .btn-header-top-right-1 {
+    border: 1px solid #ffbcac;
+    border-radius: 3px;
+    background: white;
+    color: #ffbcac;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+header .container .col-lg-6:last-child .box-right .btn-header-top-right-1:hover {
+    background-color: #fff1ee;
+    color: #ff7a59;
+}
+
+header .container .col-lg-6:last-child .box-right .btn-header-top-right-2 {
+    border: 1px solid #ffbcac;
+    border-radius: 3px;
+    background: #FF7A5A;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+header .container .col-lg-6:last-child .box-right .btn-header-top-right-2:hover {
+    background-color: #fff1ee;
+    color: #ff7a59;
+}
+
+header .header-bottom {
+    line-height: 80px;
+    height: 80px;
+}
+
+header .header-bottom .container .col-lg-4:first-child .nav-left .logo img {
+    margin-left: 15px;
+}
+
+header .header-bottom .container .col-lg-8:last-child .nav-right .menu {
+    text-align: right;
+}
+
+header .header-bottom .container .col-lg-8:last-child .nav-right .menu ul li a {
+    margin-left: 30px;
+    color: #33475B;
+    font-weight: bold;
+}
+
+header .header-bottom .container .col-lg-8:last-child .nav-right .menu ul li a:after {
+    font-family: 'FontAwesome';
+    content: '\f0d7';
+    margin-left: 6px;
+}
+
+header .header-bottom .container .col-lg-8:last-child .nav-right .menu ul li a:nth-child(2):after {
+    display: none;
+}
+
+
+/******** fine header ************/
+
+
+/*==============MAIN CONTENT===============*/
+
+
+/*****promo bar ******/
+
+main #promobar {
+    background: #425B76;
+    color: white;
+    padding: 15px;
+}
+
+main #promobar .col-lg-12 p {
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main #promobar .col-lg-12 a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/***** fine promo bar******/
+
+main #jumbo .jumbotron {
+    background: #FEF4EE;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+main #jumbo .jumbotron .col-lg-5 .btn-jumbo {
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 600;
+    background-color: #ff7a59;
+    color: #fff;
+    padding: 1.411em 2em 1.211em;
+    font-size: 1.0625rem;
+    margin-bottom: 20px;
+}
+
+main #jumbo .jumbotron .col-lg-5 .btn-jumbo:hover {
+    background-color: #ffbcac;
+    color: #fff
+}
+
+main #jumbo .jumbotron .col-lg-5 h1 {
+    font-size: 50px;
+    line-height: 1.30435em;
+    font-weight: 900;
+    color: #33475B;
+    margin-bottom: 20px;
+}
+
+main #jumbo .jumbotron .col-lg-5 p.lead {
+    font-size: 16px;
+}
+
+main #jumbo .jumbotron .col-lg-5 p:last-child {
+    font-size: 12px;
+}
