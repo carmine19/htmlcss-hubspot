@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background: #F5F8FA;
 }
 
 .container:after {
@@ -125,6 +126,7 @@ header .container .col-lg-6:last-child .box-right .btn-header-top-right-2:hover 
 header .header-bottom {
     line-height: 80px;
     height: 80px;
+    background: white;
 }
 
 header .header-bottom .container .col-lg-4:first-child .nav-left .logo img {
@@ -187,6 +189,7 @@ main #jumbo .jumbotron {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 600px;
+    margin-bottom: 100px;
 }
 
 main #jumbo .jumbotron .col-lg-5 .btn-jumbo {
@@ -220,4 +223,172 @@ main #jumbo .jumbotron .col-lg-5 p.lead {
 
 main #jumbo .jumbotron .col-lg-5 p:last-child {
     font-size: 12px;
+}
+
+
+/********* fine jumbo *******/
+
+
+/********* products *******/
+
+main #products .container .col-lg-4 {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: calc(33.3% - 20px);
+    padding: 0 30px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+main #products .container .col-lg-4:first-child h2 {
+    font-size: 35px;
+    line-height: 1.30435em;
+    font-weight: 900;
+    color: #33475B;
+    margin-bottom: 20px;
+}
+
+main #products .container .card {
+    background: white;
+}
+
+main #products .container .card:hover {
+    background: white;
+    box-shadow: 0 10px 50px -5px rgba(51, 71, 91, 0.12);
+    transform: scale(1.014);
+    transition: 1s;
+}
+
+main #products .container .card .header-card {
+    margin-top: 48px;
+}
+
+main #products .container .card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #33475B;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+main #products .container .card .fa-circle-notch:before {
+    font-size: 25px;
+}
+
+main #products .container .card .body-card p {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    font-size: 13px;
+    border-top: 1px solid rgba(153, 172, 194, 0.2);
+    padding-top: 2em;
+}
+
+main #products .container .card .body-card ul li a:before {
+    font-family: 'FontAwesome';
+    content: '\f058';
+    margin-right: 6px;
+    color: #ff7a5a;
+}
+
+main #products .container .card .body-card ul li a {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+main #products .container .card .body-card a.btn-card {
+    text-align: center;
+    border-radius: .1875rem;
+    transition: .3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    background-color: #ff7a59;
+    color: #fff;
+    padding: .9em 1.388em .6em;
+    font-size: 13px;
+    width: 100%;
+}
+
+main #products .container .card .new {
+    position: absolute;
+    padding: 0 10px;
+    right: 0;
+    top: 15px;
+    background: #00bda5;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translate(5px, 10px)
+}
+
+
+/********* fine products *******/
+
+
+/********* community hero *******/
+
+main #hero {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white;
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+main #hero .container .col-lg-8 h2 {
+    font-size: 32px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main #hero .container .col-lg-8 p {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #hero .container .col-lg-3 {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+main #hero .container .col-lg-3 h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+main #hero .container .col-lg-3 h2:after {
+    content: '+';
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main #hero .container .col-lg-3:nth-child(-n+5) {
+    border-bottom: 1px solid #fff;
+}
+
+main #hero .container .col-lg-3:nth-child(-n+4) {
+    border-right: 1px solid #fff;
+}
+
+main #hero .container .col-lg-3:nth-child(n+6) {
+    border-right: 1px solid #fff;
+}
+
+main #hero .container .col-lg-3:last-child {
+    border-right: none;
 }
