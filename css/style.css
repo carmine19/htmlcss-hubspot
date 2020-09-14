@@ -573,7 +573,7 @@ footer .container .row:nth-child(3) .col-lg-12 .col-lg-6 {
     float: left;
 }
 
-footer .container .row:nth-child(3) .col-lg-12 .logo-footer img {
+footer .container .r-3ow:nth-child(3) .col-lg-12 .logo-footer img {
     margin-bottom: 20px;
 }
 
@@ -587,3 +587,60 @@ footer .container .row:nth-child(3) .col-lg-12 span a:first-child {
     margin-top: 20px;
     font-weight: 600;
 }
+
+/************** chat bottom +**************/
+
+#chat .container .row .col-lg-2{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+#chat .container .row .col-lg-2 .fa-comment-alt{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    float: right;
+    color: #fff;
+    background: #425B76;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+    cursor: pointer;
+}
+
+#chat .container .row .col-lg-2 .top-chat{
+    position: relative;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    border: 1px solid #eaf0f6;
+    cursor: pointer;
+}
+
+#chat .container .row .col-lg-2 .top-chat p{
+    padding: 24px 16px 16px;;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+#chat .container .row .col-lg-2 .top-chat p:after{
+    content: "x";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 22px;
+}
+
+#chat .container .row .col-lg-2 .top-chat img{
+    position: absolute;
+    width: 42px;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%,+50%);
+}
+
+/************** fine chat bottom +**************/
